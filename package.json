@@ -1,0 +1,34 @@
+{
+  "name": "adonis-mongoose",
+  "version": "0.0.1",
+  "description": "A package to use AdonisJS with MongoDB(using mongoose package)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard src/**/*.js src/**/**/*.js src/**/**/**/*.js lib/*.js test/**/*.js providers/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayur-mi/adonis-mongoose.git"
+  },
+  "devDependencies": {
+    "adonis-fold": "3.0.3",
+    "semantic-release": "6.3.2",
+    "standard": "8.6.0"
+  },
+  "dependencies": {
+    "mongoose": "4.7.1"
+  },
+  "keywords": [
+    "adonisjs",
+    "adonis",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Mayur Patel <mayur.mindinventory@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mayur-mi/adonis-mongoose/issues"
+  },
+  "homepage": "https://github.com/mayur-mi/adonis-mongoose#readme"
+}
