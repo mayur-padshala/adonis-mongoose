@@ -16,7 +16,7 @@ class MongooseProvider extends ServiceProvider {
 
         const connectUri = `${mongoHost}:${mongoPort}/${mongoDb}`
         const connectionString = (mongoUser !== '' || mongoPass !== '') ? `${mongoUser}:${mongoPass}@${connectUri}` : connectUri
-
+        AdonisMongoose.Promise = global.Promise
         AdonisMongoose.connect(connectionString)
 
         return AdonisMongoose
